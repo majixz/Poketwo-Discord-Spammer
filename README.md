@@ -1,61 +1,101 @@
-🔧 Created by: MaJiX
-💬 Description:
-This tool allows you to send automated repeated messages to one or more Discord channels using your user token.
-For personal testing or educational use only.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Majix Discord Spammer Tool</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #222;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    pre {
+      background: #eee;
+      padding: 1rem;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    .warning {
+      color: red;
+      font-weight: bold;
+    }
+    a {
+      color: #0066cc;
+    }
+  </style>
+</head>
+<body>
 
-🚀 How to Run
-✅ Requirements:
-Before running the script, you need to install Python and the required library:
+  <h1>📄 Majix Discord Spammer Tool</h1>
 
-Install Python
-Download from: https://www.python.org/downloads/
-✅ Be sure to check "Add Python to PATH" during installation.
+  <h3>🔧 Created by: <strong>MaJiX</strong></h3>
 
-Install the required library:
+  <h2>💬 Description</h2>
+  <p>This tool allows you to send automated repeated messages to one or more Discord channels using your <strong>user token</strong>.<br/>
+  <em>For personal testing or educational use only.</em></p>
 
-bash
-Copy
-Edit
-pip install discum
-🖥 How to Use
-Run the script using Python:
+  <h2>🚀 How to Run</h2>
+  <h3>✅ Requirements:</h3>
+  <ol>
+    <li>Install Python<br/>
+      <a href="https://www.python.org/downloads/" target="_blank">Download from python.org</a><br/>
+      ✅ Be sure to check <strong>"Add Python to PATH"</strong> during installation.
+    </li>
+    <li>Install the required library:
+      <pre><code>pip install discum</code></pre>
+    </li>
+  </ol>
 
-bash
-Copy
-Edit
-python discord_spammer.py
-Follow the prompts in the console:
+  <h2>🖥 How to Use</h2>
+  <ol>
+    <li>Run the script using Python:
+      <pre><code>python discord_spammer.py</code></pre>
+    </li>
+    <li>Follow the prompts:
+      <ul>
+        <li>Enter your <strong>Discord token</strong></li>
+        <li>Enter one or more <strong>channel IDs</strong>, separated by commas</li>
+        <li>Enter the <strong>message</strong> you want to send</li>
+      </ul>
+    </li>
+    <li>Control the spammer using these commands:
+      <ul>
+        <li><code>s</code> — Start sending messages</li>
+        <li><code>p</code> — Pause sending messages</li>
+        <li><code>q</code> — Quit the program</li>
+      </ul>
+    </li>
+  </ol>
 
-Enter your Discord token
+  <h2>🔐 How to Find Your Discord Token</h2>
+  <p class="warning">⚠️ WARNING: Your token gives full access to your account. Never share it.</p>
+  <ol>
+    <li>Open Discord in a <strong>browser</strong> (not the app).</li>
+    <li>Press <code>Ctrl + Shift + I</code> to open Developer Tools.</li>
+    <li>Go to the <strong>Application</strong> tab.</li>
+    <li>Under <strong>Storage</strong>, click <strong>Local Storage</strong>.</li>
+    <li>Select <code>https://discord.com</code>.</li>
+    <li>Search for the key named <code>token</code> — your user token will be shown on the right.</li>
+  </ol>
 
-Enter one or more channel IDs, separated by commas
+  <h2>🧠 Disclaimer</h2>
+  <p>This tool is provided <strong>for educational purposes only</strong>.<br/>
+  Misuse may violate Discord’s <a href="https://discord.com/terms" target="_blank">Terms of Service</a> and result in account suspension or ban.<br/>
+  <strong>Use responsibly and at your own risk.</strong></p>
 
-Enter the message you want to send
-
-Control the spammer using commands:
-
-s — Start sending messages
-
-p — Pause sending messages
-
-q — Quit and close the program
-
-🔐 How to Find Your Discord Token:
-⚠️ WARNING: Your token gives full access to your account. Never share it.
-
-Open Discord in a browser (not the app).
-
-Press Ctrl + Shift + I to open Developer Tools.
-
-Go to the Application tab.
-
-Under Storage, click Local Storage.
-
-Select https://discord.com.
-
-Search for the key named token — your user token will be shown on the right.
-
-🧠 Disclaimer:
-This tool is provided for educational purposes only.
-Misuse may violate Discord’s Terms of Service and result in account suspension or ban.
-Use responsibly and at your own risk.
+</body>
+</html>
