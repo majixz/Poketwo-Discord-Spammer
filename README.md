@@ -1,43 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Majix Discord Spammer Tool</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f7f7f7;
-      color: #333;
-      max-width: 800px;
-      margin: auto;
-      padding: 2rem;
-      line-height: 1.6;
-    }
-    h1, h2, h3 {
-      color: #222;
-    }
-    code {
-      background-color: #eee;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-family: monospace;
-    }
-    pre {
-      background: #eee;
-      padding: 1rem;
-      border-radius: 6px;
-      overflow-x: auto;
-    }
-    .warning {
-      color: red;
-      font-weight: bold;
-    }
-    a {
-      color: #0066cc;
-    }
-  </style>
-</head>
+
 <body>
 
   <h1>📄 Majix Discord Spammer Tool</h1>
